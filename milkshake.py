@@ -11,18 +11,21 @@ while True:
       print("Enjoy your Vanilla milkshake, your new balance is ", balance)
     else:
       print("You're broke, go home")
+      break;
   elif choice == 2:
     if balance >= shakes[2]:
       balance -= shakes[2]
       print("Enjoy your Chocolate milkshake, your new balance is", balance)
     else:
       print("You're broke, go home")
+      break;
   elif choice == 3:
     if balance >= shakes[3]:
       balance -= shakes[3]
       print("Enjoy your Strawberry milkshake, your new balance is", balance)
     else:
       print("You're broke, go home")
+      break;
 
   elif choice == 4:
     if balance >= shakes[4]:
@@ -30,6 +33,7 @@ while True:
       print("Enjoy your Mango milkshake, your new balance is", balance)
     else:
       print("You're broke, go home")
+      break;
   elif choice == 5:
     break
   else:
